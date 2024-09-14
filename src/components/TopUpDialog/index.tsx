@@ -90,7 +90,7 @@ const TopUpDialog = ({ isOpen, onClose }: {
               <div className="flex items-center gap-3 mt-3">
                 <button
                   className="flex justify-center items-center rounded-full bg-[#7e33e0] px-8 py-2 text-md text-white transition-transform duration-300 ease-in-out transform hover:scale-90"
-                  onClick={() => setPrice(0.02)}
+                  onClick={() => setPrice(50)}
                 >
                   $50
                 </button>
